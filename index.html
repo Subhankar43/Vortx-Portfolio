@@ -1,56 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D safari logo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <div class="safari">
-     <div class="circle_lines">
-        <span style="--i:0;"></span>
-        <span style="--i:1;"></span>
-        <span style="--i:2;"></span>
-        <span style="--i:3;"></span>
-        <span style="--i:4;"></span>
-        <span style="--i:5;"></span>
-        <span style="--i:6;"></span>
-        <span style="--i:7;"></span>
-        <span style="--i:8;"></span>
-        <span style="--i:9;"></span>
-        <span style="--i:10;"></span>
-        <span style="--i:11;"></span>
-        <span style="--i:12;"></span>
-        <span style="--i:13;"></span>
-        <span style="--i:14;"></span>
-        <span style="--i:15;"></span>
-        <span style="--i:16;"></span>
-        <span style="--i:17;"></span>
-        <span style="--i:18;"></span>
-        <span style="--i:19;"></span>
-        <span style="--i:20;"></span>     
-        <span style="--i:21;"></span>
-        <span style="--i:22;"></span>
-        <span style="--i:23;"></span>
-        <span style="--i:24;"></span>
-        <span style="--i:25;"></span>
-        <span style="--i:26;"></span>
-        <span style="--i:27;"></span>
-        <span style="--i:28;"></span>
-        <span style="--i:29;"></span>
-        <span style="--i:30;"></span>
-        <span style="--i:31;"></span>
-        <span style="--i:32;"></span>
-        <span style="--i:34;"></span>
-        <span style="--i:35;"></span>
-        <span style="--i:36;"></span>
-        
-   
-     </div>
-     <div class="needle"></div>
-     
- </div>   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vortx-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Port<span style="color: #0ef;">folio.</span></a>
+      <nav class="navbar">
+        <a href="#" style="--i: 1" class="active">Home</a>
+      </nav>
+    </header>
+    <section class="home">
+      <div class="home-content">
+        <h3>Hey 👋, It's Me</h3>
+        <h1><span class="vortx">Vortx</span></h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          quod quidem expedita reprehenderit a temporibus omnis, rerum dicta
+          dolorem unde, distinctio magni odio officiis autem? Accusantium,
+          aspernatur enim! Temporibus, culpa?
+        </p>
+        <div class="wrapper">
+          <div style="margin-top: 1em" class="button" style="--i:3;">
+            <div class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <a href="#" target="_blank"> <span>Facebook</span></a>
+          </div>
+          <div style="margin-top: 1em" class="button" style="--i:4;">
+            <div class="icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <a
+              href="https://www.instagram.com/subhankarkundu43"
+              target="_blank"
+            >
+              <span>Instagram</span></a
+            >
+          </div>
+        </div>
+        <div><a href="#" target="_blank" class="btn">Download CV</a></div>
+      </div>
+
+      <div class="home-img">
+        <svg
+          class="home_blob"
+          viewBox="0 0 200 187"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <mask id="mask0" mask-type="alpha">
+            <path
+              d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+            />
+          </mask>
+          <g mask="url(#mask0)">
+            <path
+              d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+            />
+            <image
+              class="home_blob-img"
+              xlink:href="pika.png"
+              alt="profile"
+            />
+          </g>
+        </svg>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
