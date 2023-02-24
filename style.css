@@ -131,6 +131,9 @@ body {
   .wrapper .button:nth-child(2):hover .icon {
     background: #E1306C;
   }
+  .wrapper .button:nth-child(3):hover .icon {
+    background: #333;
+  }
 .wrapper .button .icon i {
   font-size: 25px;
   line-height: 60px;
@@ -152,6 +155,9 @@ body {
   }
   .wrapper .button:nth-child(2) span {
     color: #E1306C;
+  }
+  .wrapper .button:nth-child(3) span {
+    color: #333;
   }
 
   .btn{
