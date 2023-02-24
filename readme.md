@@ -2,7 +2,7 @@
 
 Welcome, it's just the homepage which shows little bit about me and who i am in a user-friendly and interactive manner. This project is still in progress. Going to update the codes the soon and gonna add all the pages...
 
-<b>Demo Site-</b> <a href="vortx-portfolio.netlify.app" target="_blank"> Vortx-Portfolio</a>
+<b>Demo Site-</b> <a href="https://vortx-portfolio.netlify.app" target="_blank"> Vortx-Portfolio</a>
 
 # 💻Languages Used:
 
